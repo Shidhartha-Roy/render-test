@@ -3,6 +3,8 @@ spring:
     url: jdbc:mysql://sql9.freesqldatabase.com:3306/sql9641179
     username: sql9641179
     password: lZwQUmmBj5
+    hikari:
+      maximum-pool-size: 3
   jpa:
     hibernate:
       ddl-auto: update
